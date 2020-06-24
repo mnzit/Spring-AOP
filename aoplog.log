@@ -1,0 +1,35 @@
+2020-06-24 11:59:14 INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 13144 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 11:59:14 INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 11:59:14 INFO  DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-24 11:59:14 INFO  DevToolsPropertyDefaultsPostProcessor:225 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-06-24 11:59:17 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2020-06-24 11:59:17 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-24 11:59:17 INFO  StandardService:173 - Starting service [Tomcat]
+2020-06-24 11:59:17 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-24 11:59:17 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2020-06-24 11:59:17 INFO  ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 2647 ms
+2020-06-24 11:59:18 INFO  ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-24 11:59:18 INFO  OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2020-06-24 11:59:18 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-24 11:59:18 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-24 11:59:18 INFO  DemoAop:61 - Started DemoAop in 4.496 seconds (JVM running for 6.086)
+2020-06-24 11:59:57 INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 3304 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 11:59:57 INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 11:59:57 INFO  DevToolsPropertyDefaultsPostProcessor:225 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-06-24 11:59:59 INFO  TomcatWebServer:108 - Tomcat initialized with port(s): 8080 (http)
+2020-06-24 11:59:59 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2020-06-24 11:59:59 INFO  StandardService:173 - Starting service [Tomcat]
+2020-06-24 11:59:59 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.36]
+2020-06-24 12:00:00 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2020-06-24 12:00:00 INFO  ServletWebServerApplicationContext:285 - Root WebApplicationContext: initialization completed in 2802 ms
+2020-06-24 12:00:00 DEBUG ServletContextInitializerBeans:235 - Mapping filters: characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2020-06-24 12:00:00 DEBUG ServletContextInitializerBeans:235 - Mapping servlets: dispatcherServlet urls=[/]
+2020-06-24 12:00:00 INFO  ThreadPoolTaskExecutor:181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-06-24 12:00:00 DEBUG RequestMappingHandlerAdapter:615 - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2020-06-24 12:00:00 DEBUG RequestMappingHandlerMapping:351 - 2 mappings in 'requestMappingHandlerMapping'
+2020-06-24 12:00:00 DEBUG SimpleUrlHandlerMapping:173 - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2020-06-24 12:00:00 DEBUG ExceptionHandlerExceptionResolver:297 - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2020-06-24 12:00:00 INFO  OptionalLiveReloadServer:58 - LiveReload server is running on port 35729
+2020-06-24 12:00:00 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2020-06-24 12:00:01 INFO  TomcatWebServer:220 - Tomcat started on port(s): 8080 (http) with context path ''
+2020-06-24 12:00:01 INFO  DemoAop:61 - Started DemoAop in 4.673 seconds (JVM running for 6.286)
