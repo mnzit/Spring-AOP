@@ -1,5 +1,6 @@
 package com.mnzit.learner.spring.aop.demoaop.test;
 
+import com.mnzit.learner.spring.aop.demoaop.annotation.LogExecutionTime;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
@@ -12,6 +13,15 @@ import org.springframework.stereotype.Component;
 public class TestMethods {
 
     public void doSomething() {
-        System.out.println("Doing Something" + (2 * 10));
+        log.info("Inside method (EXECUTING)");
+    }
+
+    public void doSomething(String name, int age) {
+        log.info("Inside method (EXECUTING) name: {}, age: {}", name, age);
+    }
+
+    @LogExecutionTime
+    public void withAnnotation() {
+        log.info("With Annotation Executing");
     }
 }
