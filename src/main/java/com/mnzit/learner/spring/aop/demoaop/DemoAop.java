@@ -1,9 +1,7 @@
 package com.mnzit.learner.spring.aop.demoaop;
 
-import com.mnzit.learner.spring.aop.demoaop.test.TestMethods;
-import com.mnzit.learner.spring.aop.demoaop.test2.TestMethod2;
-import com.mnzit.learner.spring.aop.demoaop.test2.inner.TestMethod2Inner;
-import org.slf4j.MDC;
+import com.mnzit.learner.spring.aop.demoaop.test.TestAOP;
+import com.mnzit.learner.spring.aop.demoaop.test.subtest.SubTestAOP;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -19,13 +17,10 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
 public class DemoAop implements CommandLineRunner {
 
     @Autowired
-    private TestMethods testMethods;
+    private TestAOP testAOP;
 
     @Autowired
-    private TestMethod2 testMethod2;
-
-    @Autowired
-    private TestMethod2Inner testMethod2Inner;
+    private SubTestAOP subTestAOP;
 
     public static void main(String[] args) {
         SpringApplication.run(DemoAop.class, args);
@@ -33,19 +28,13 @@ public class DemoAop implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-        MDC.put("username", "Manjit");
-        MDC.put("mobileNumber", "9808546858");
-        MDC.put("email", "manjit.shakya@f1soft.com");
 
-//        testMethods.doSomething();
-//        testMethods.doSomething("Manjit", 23);
-//        testMethods.withAnnotation();
+        testAOP.testPublicInt();
+        testAOP.testPublicIntInt(1);
+        testAOP.testPublicVoid();
+        testAOP.testPublicVoidInt(1);
 
-        testMethod2.callMe();
-        testMethod2.callMe2();
-
-        testMethod2Inner.callMe();
-        testMethod2Inner.callMe2();
+        subTestAOP.subTestPublicVoid();
     }
 
 }

@@ -8789,3 +8789,1194 @@ ns         %     Task name
 
 2020-06-24 21:04:23 U-Manjit 9808546858 manjit.shakya@f1soft.com DEBUG TestMethod2Inner:17 -  TestMethod2Inner CallMe executing
 2020-06-24 21:04:23 U-Manjit 9808546858 manjit.shakya@f1soft.com DEBUG TestMethod2Inner:21 -  TestMethod2Inner CallMe2 executing
+2020-06-24 22:12:10 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 16536 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:12:10 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:12:10 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:12:13 U-   INFO  DemoAop:61 - Started DemoAop in 4.313 seconds (JVM running for 5.286)
+2020-06-24 22:12:13 U-   DEBUG TestAOP:18 - testPublicInt
+2020-06-24 22:12:13 U-   DEBUG TestAOP:27 - testPublicIntInt
+2020-06-24 22:12:13 U-   DEBUG TestAOP:33 - testPrivateVoid
+2020-06-24 22:12:13 U-   DEBUG TestAOP:14 - testPublicVoid
+2020-06-24 22:12:13 U-   DEBUG TestAOP:23 - testPublicVoidInt
+2020-06-24 22:12:52 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 328 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:12:52 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:12:52 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:12:55 U-   INFO  DemoAop:61 - Started DemoAop in 4.221 seconds (JVM running for 5.157)
+2020-06-24 22:12:55 U-   DEBUG TestAOP:18 - testPublicInt
+2020-06-24 22:12:55 U-   DEBUG TestAOP:27 - testPublicIntInt
+2020-06-24 22:12:55 U-   DEBUG TestAOP:33 - testPrivateVoid
+2020-06-24 22:12:55 U-   DEBUG TestAOP:14 - testPublicVoid
+2020-06-24 22:12:55 U-   DEBUG TestAOP:23 - testPublicVoidInt
+2020-06-24 22:14:42 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 10352 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:14:42 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:14:42 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:14:45 U-   INFO  DemoAop:61 - Started DemoAop in 4.208 seconds (JVM running for 5.09)
+2020-06-24 22:14:45 U-   DEBUG TestAOP:18 - testPublicInt
+2020-06-24 22:14:45 U-   DEBUG TestAOP:27 - testPublicIntInt
+2020-06-24 22:14:45 U-   DEBUG TestAOP:33 - testPrivateVoid
+2020-06-24 22:14:45 U-   DEBUG TestAOP:14 - testPublicVoid
+2020-06-24 22:14:45 U-   DEBUG TestAOP:23 - testPublicVoidInt
+2020-06-24 22:18:22 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 13512 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:18:22 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:18:22 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:18:23 U-   ERROR SpringApplication:837 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting '(' at character position 7
+public * *(..)
+       ^
+
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.mnzit.learner.spring.aop.demoaop.DemoAop.main(DemoAop.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting '(' at character position 7
+public * *(..)
+       ^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:212)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:177)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158)
+	... 14 more
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting '(' at character position 7
+public * *(..)
+       ^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:334)
+	at org.aspectj.weaver.reflect.InternalUseOnlyPointcutParser.resolvePointcutExpression(InternalUseOnlyPointcutParser.java:36)
+	at org.aspectj.weaver.reflect.Java15ReflectionBasedReferenceTypeDelegate.getDeclaredPointcuts(Java15ReflectionBasedReferenceTypeDelegate.java:309)
+	at org.aspectj.weaver.ReferenceType.getDeclaredPointcuts(ReferenceType.java:890)
+	at org.aspectj.weaver.ResolvedType$PointcutGetter.get(ResolvedType.java:263)
+	at org.aspectj.weaver.ResolvedType$PointcutGetter.get(ResolvedType.java:260)
+	at org.aspectj.weaver.Iterators$4$1.hasNext(Iterators.java:213)
+	at org.aspectj.weaver.Iterators$4.hasNext(Iterators.java:230)
+	at org.aspectj.weaver.ResolvedType.findPointcut(ResolvedType.java:767)
+	at org.aspectj.weaver.patterns.ReferencePointcut.resolveBindings(ReferencePointcut.java:148)
+	at org.aspectj.weaver.patterns.Pointcut.resolve(Pointcut.java:189)
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:331)
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:312)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:347)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 31 more
+2020-06-24 22:18:47 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 8000 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:18:47 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:18:47 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:18:49 U-   ERROR SpringApplication:837 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$880095be cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.mnzit.learner.spring.aop.demoaop.DemoAop.main(DemoAop.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$880095be cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:212)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:177)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158)
+	... 14 more
+Caused by: org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$880095be cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.aop.framework.CglibAopProxy.getProxy(CglibAopProxy.java:208)
+	at org.springframework.aop.framework.ProxyFactory.getProxy(ProxyFactory.java:110)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.createProxy(AbstractAutoProxyCreator.java:471)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:350)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 31 more
+Caused by: org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$880095be cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.cglib.core.ReflectUtils.defineClass(ReflectUtils.java:538)
+	at org.springframework.cglib.core.AbstractClassGenerator.generate(AbstractClassGenerator.java:363)
+	at org.springframework.cglib.proxy.Enhancer.generate(Enhancer.java:585)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:110)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:108)
+	at org.springframework.cglib.core.internal.LoadingCache$2.call(LoadingCache.java:54)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.springframework.cglib.core.internal.LoadingCache.createEntry(LoadingCache.java:61)
+	at org.springframework.cglib.core.internal.LoadingCache.get(LoadingCache.java:34)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData.get(AbstractClassGenerator.java:134)
+	at org.springframework.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:319)
+	at org.springframework.cglib.proxy.Enhancer.createHelper(Enhancer.java:572)
+	at org.springframework.cglib.proxy.Enhancer.createClass(Enhancer.java:419)
+	at org.springframework.aop.framework.ObjenesisCglibAopProxy.createProxyClassAndInstance(ObjenesisCglibAopProxy.java:57)
+	at org.springframework.aop.framework.CglibAopProxy.getProxy(CglibAopProxy.java:205)
+	... 38 more
+Caused by: java.lang.IllegalAccessError: class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$880095be cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.cglib.core.ReflectUtils.defineClass(ReflectUtils.java:535)
+	... 52 more
+2020-06-24 22:19:22 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 11316 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:19:22 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:19:22 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:19:24 U-   ERROR SpringApplication:837 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$dd355c13 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.mnzit.learner.spring.aop.demoaop.DemoAop.main(DemoAop.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$dd355c13 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:212)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:177)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158)
+	... 14 more
+Caused by: org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$dd355c13 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.aop.framework.CglibAopProxy.getProxy(CglibAopProxy.java:208)
+	at org.springframework.aop.framework.ProxyFactory.getProxy(ProxyFactory.java:110)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.createProxy(AbstractAutoProxyCreator.java:471)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:350)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 31 more
+Caused by: org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$dd355c13 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.cglib.core.ReflectUtils.defineClass(ReflectUtils.java:538)
+	at org.springframework.cglib.core.AbstractClassGenerator.generate(AbstractClassGenerator.java:363)
+	at org.springframework.cglib.proxy.Enhancer.generate(Enhancer.java:585)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:110)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:108)
+	at org.springframework.cglib.core.internal.LoadingCache$2.call(LoadingCache.java:54)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.springframework.cglib.core.internal.LoadingCache.createEntry(LoadingCache.java:61)
+	at org.springframework.cglib.core.internal.LoadingCache.get(LoadingCache.java:34)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData.get(AbstractClassGenerator.java:134)
+	at org.springframework.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:319)
+	at org.springframework.cglib.proxy.Enhancer.createHelper(Enhancer.java:572)
+	at org.springframework.cglib.proxy.Enhancer.createClass(Enhancer.java:419)
+	at org.springframework.aop.framework.ObjenesisCglibAopProxy.createProxyClassAndInstance(ObjenesisCglibAopProxy.java:57)
+	at org.springframework.aop.framework.CglibAopProxy.getProxy(CglibAopProxy.java:205)
+	... 38 more
+Caused by: java.lang.IllegalAccessError: class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$dd355c13 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.cglib.core.ReflectUtils.defineClass(ReflectUtils.java:535)
+	... 52 more
+2020-06-24 22:31:16 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 2532 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:31:16 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:31:16 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:31:18 U-   ERROR SpringApplication:837 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$58d5a0b0 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.mnzit.learner.spring.aop.demoaop.DemoAop.main(DemoAop.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$58d5a0b0 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:212)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:177)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158)
+	... 14 more
+Caused by: org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$58d5a0b0 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.aop.framework.CglibAopProxy.getProxy(CglibAopProxy.java:208)
+	at org.springframework.aop.framework.ProxyFactory.getProxy(ProxyFactory.java:110)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.createProxy(AbstractAutoProxyCreator.java:471)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:350)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 31 more
+Caused by: org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$58d5a0b0 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.cglib.core.ReflectUtils.defineClass(ReflectUtils.java:538)
+	at org.springframework.cglib.core.AbstractClassGenerator.generate(AbstractClassGenerator.java:363)
+	at org.springframework.cglib.proxy.Enhancer.generate(Enhancer.java:585)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:110)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:108)
+	at org.springframework.cglib.core.internal.LoadingCache$2.call(LoadingCache.java:54)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.springframework.cglib.core.internal.LoadingCache.createEntry(LoadingCache.java:61)
+	at org.springframework.cglib.core.internal.LoadingCache.get(LoadingCache.java:34)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData.get(AbstractClassGenerator.java:134)
+	at org.springframework.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:319)
+	at org.springframework.cglib.proxy.Enhancer.createHelper(Enhancer.java:572)
+	at org.springframework.cglib.proxy.Enhancer.createClass(Enhancer.java:419)
+	at org.springframework.aop.framework.ObjenesisCglibAopProxy.createProxyClassAndInstance(ObjenesisCglibAopProxy.java:57)
+	at org.springframework.aop.framework.CglibAopProxy.getProxy(CglibAopProxy.java:205)
+	... 38 more
+Caused by: java.lang.IllegalAccessError: class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$58d5a0b0 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.cglib.core.ReflectUtils.defineClass(ReflectUtils.java:535)
+	... 52 more
+2020-06-24 22:34:35 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 12168 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:34:35 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:34:35 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:34:36 U-   ERROR SpringApplication:837 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$c67e2e62 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.mnzit.learner.spring.aop.demoaop.DemoAop.main(DemoAop.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$c67e2e62 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:212)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:177)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158)
+	... 14 more
+Caused by: org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$c67e2e62 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.aop.framework.CglibAopProxy.getProxy(CglibAopProxy.java:208)
+	at org.springframework.aop.framework.ProxyFactory.getProxy(ProxyFactory.java:110)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.createProxy(AbstractAutoProxyCreator.java:471)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:350)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 31 more
+Caused by: org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$c67e2e62 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.cglib.core.ReflectUtils.defineClass(ReflectUtils.java:538)
+	at org.springframework.cglib.core.AbstractClassGenerator.generate(AbstractClassGenerator.java:363)
+	at org.springframework.cglib.proxy.Enhancer.generate(Enhancer.java:585)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:110)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:108)
+	at org.springframework.cglib.core.internal.LoadingCache$2.call(LoadingCache.java:54)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.springframework.cglib.core.internal.LoadingCache.createEntry(LoadingCache.java:61)
+	at org.springframework.cglib.core.internal.LoadingCache.get(LoadingCache.java:34)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData.get(AbstractClassGenerator.java:134)
+	at org.springframework.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:319)
+	at org.springframework.cglib.proxy.Enhancer.createHelper(Enhancer.java:572)
+	at org.springframework.cglib.proxy.Enhancer.createClass(Enhancer.java:419)
+	at org.springframework.aop.framework.ObjenesisCglibAopProxy.createProxyClassAndInstance(ObjenesisCglibAopProxy.java:57)
+	at org.springframework.aop.framework.CglibAopProxy.getProxy(CglibAopProxy.java:205)
+	... 38 more
+Caused by: java.lang.IllegalAccessError: class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$c67e2e62 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.cglib.core.ReflectUtils.defineClass(ReflectUtils.java:535)
+	... 52 more
+2020-06-24 22:38:59 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 19004 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:38:59 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:38:59 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:39:01 U-   ERROR SpringApplication:837 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$ebbb642 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.mnzit.learner.spring.aop.demoaop.DemoAop.main(DemoAop.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$ebbb642 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:212)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:177)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158)
+	... 14 more
+Caused by: org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$ebbb642 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.aop.framework.CglibAopProxy.getProxy(CglibAopProxy.java:208)
+	at org.springframework.aop.framework.ProxyFactory.getProxy(ProxyFactory.java:110)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.createProxy(AbstractAutoProxyCreator.java:471)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:350)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 31 more
+Caused by: org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$ebbb642 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.cglib.core.ReflectUtils.defineClass(ReflectUtils.java:538)
+	at org.springframework.cglib.core.AbstractClassGenerator.generate(AbstractClassGenerator.java:363)
+	at org.springframework.cglib.proxy.Enhancer.generate(Enhancer.java:585)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:110)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:108)
+	at org.springframework.cglib.core.internal.LoadingCache$2.call(LoadingCache.java:54)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.springframework.cglib.core.internal.LoadingCache.createEntry(LoadingCache.java:61)
+	at org.springframework.cglib.core.internal.LoadingCache.get(LoadingCache.java:34)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData.get(AbstractClassGenerator.java:134)
+	at org.springframework.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:319)
+	at org.springframework.cglib.proxy.Enhancer.createHelper(Enhancer.java:572)
+	at org.springframework.cglib.proxy.Enhancer.createClass(Enhancer.java:419)
+	at org.springframework.aop.framework.ObjenesisCglibAopProxy.createProxyClassAndInstance(ObjenesisCglibAopProxy.java:57)
+	at org.springframework.aop.framework.CglibAopProxy.getProxy(CglibAopProxy.java:205)
+	... 38 more
+Caused by: java.lang.IllegalAccessError: class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$ebbb642 cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.cglib.core.ReflectUtils.defineClass(ReflectUtils.java:535)
+	... 52 more
+2020-06-24 22:39:20 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 7236 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:39:20 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:39:20 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:39:21 U-   ERROR SpringApplication:837 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$9e55cc8c cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.mnzit.learner.spring.aop.demoaop.DemoAop.main(DemoAop.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$9e55cc8c cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:212)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:177)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158)
+	... 14 more
+Caused by: org.springframework.aop.framework.AopConfigException: Could not generate CGLIB subclass of class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat: Common causes of this problem include using a final class or a non-visible class; nested exception is org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$9e55cc8c cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.aop.framework.CglibAopProxy.getProxy(CglibAopProxy.java:208)
+	at org.springframework.aop.framework.ProxyFactory.getProxy(ProxyFactory.java:110)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.createProxy(AbstractAutoProxyCreator.java:471)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:350)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 31 more
+Caused by: org.springframework.cglib.core.CodeGenerationException: java.lang.IllegalAccessError-->class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$9e55cc8c cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at org.springframework.cglib.core.ReflectUtils.defineClass(ReflectUtils.java:538)
+	at org.springframework.cglib.core.AbstractClassGenerator.generate(AbstractClassGenerator.java:363)
+	at org.springframework.cglib.proxy.Enhancer.generate(Enhancer.java:585)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:110)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData$3.apply(AbstractClassGenerator.java:108)
+	at org.springframework.cglib.core.internal.LoadingCache$2.call(LoadingCache.java:54)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.springframework.cglib.core.internal.LoadingCache.createEntry(LoadingCache.java:61)
+	at org.springframework.cglib.core.internal.LoadingCache.get(LoadingCache.java:34)
+	at org.springframework.cglib.core.AbstractClassGenerator$ClassLoaderData.get(AbstractClassGenerator.java:134)
+	at org.springframework.cglib.core.AbstractClassGenerator.create(AbstractClassGenerator.java:319)
+	at org.springframework.cglib.proxy.Enhancer.createHelper(Enhancer.java:572)
+	at org.springframework.cglib.proxy.Enhancer.createClass(Enhancer.java:419)
+	at org.springframework.aop.framework.ObjenesisCglibAopProxy.createProxyClassAndInstance(ObjenesisCglibAopProxy.java:57)
+	at org.springframework.aop.framework.CglibAopProxy.getProxy(CglibAopProxy.java:205)
+	... 38 more
+Caused by: java.lang.IllegalAccessError: class org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat$$EnhancerBySpringCGLIB$$9e55cc8c cannot access its superclass org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.cglib.core.ReflectUtils.defineClass(ReflectUtils.java:535)
+	... 52 more
+2020-06-24 22:43:10 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 5604 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:43:10 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:43:10 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:43:14 U-   INFO  DemoAop:61 - Started DemoAop in 4.599 seconds (JVM running for 5.468)
+2020-06-24 22:43:14 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(DemoAop.run(..))
+2020-06-24 22:43:14 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOPImpl.testPublicInt())
+2020-06-24 22:43:14 U-   DEBUG TestAOPImpl:21 - testPublicInt
+2020-06-24 22:43:14 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOPImpl.testPublicIntInt(..))
+2020-06-24 22:43:14 U-   DEBUG TestAOPImpl:32 - testPublicIntInt
+2020-06-24 22:43:14 U-   DEBUG TestAOPImpl:38 - testPrivateVoid
+2020-06-24 22:43:14 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOPImpl.testPublicVoid())
+2020-06-24 22:43:14 U-   DEBUG TestAOPImpl:16 - testPublicVoid
+2020-06-24 22:43:14 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOPImpl.testPublicVoidInt(..))
+2020-06-24 22:43:14 U-   DEBUG TestAOPImpl:27 - testPublicVoidInt
+2020-06-24 22:44:48 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 10836 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:44:48 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:44:48 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:45:36 U-   INFO  DemoAop:61 - Started DemoAop in 48.03 seconds (JVM running for 50.531)
+2020-06-24 22:47:45 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(DemoAop.run(..))
+2020-06-24 22:47:54 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOPImpl.testPublicInt())
+2020-06-24 22:49:22 U-   DEBUG TestAOPImpl:21 - testPublicInt
+2020-06-24 22:49:24 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOPImpl.testPublicIntInt(..))
+2020-06-24 22:51:27 U-   DEBUG TestAOPImpl:32 - testPublicIntInt
+2020-06-24 22:51:27 U-   DEBUG TestAOPImpl:38 - testPrivateVoid
+2020-06-24 22:51:27 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOPImpl.testPublicVoid())
+2020-06-24 22:51:27 U-   DEBUG TestAOPImpl:16 - testPublicVoid
+2020-06-24 22:51:27 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOPImpl.testPublicVoidInt(..))
+2020-06-24 22:51:27 U-   DEBUG TestAOPImpl:27 - testPublicVoidInt
+2020-06-24 22:51:38 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 11480 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:51:38 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:51:38 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:51:40 U-   ERROR SpringApplication:837 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting '(' at character position 14
+execution(* * com.mnzit..*(..))
+              ^^^
+
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.mnzit.learner.spring.aop.demoaop.DemoAop.main(DemoAop.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting '(' at character position 14
+execution(* * com.mnzit..*(..))
+              ^^^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:212)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:177)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158)
+	... 14 more
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting '(' at character position 14
+execution(* * com.mnzit..*(..))
+              ^^^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:334)
+	at org.aspectj.weaver.reflect.InternalUseOnlyPointcutParser.resolvePointcutExpression(InternalUseOnlyPointcutParser.java:36)
+	at org.aspectj.weaver.reflect.Java15ReflectionBasedReferenceTypeDelegate.getDeclaredPointcuts(Java15ReflectionBasedReferenceTypeDelegate.java:309)
+	at org.aspectj.weaver.ReferenceType.getDeclaredPointcuts(ReferenceType.java:890)
+	at org.aspectj.weaver.ResolvedType$PointcutGetter.get(ResolvedType.java:263)
+	at org.aspectj.weaver.ResolvedType$PointcutGetter.get(ResolvedType.java:260)
+	at org.aspectj.weaver.Iterators$4$1.hasNext(Iterators.java:213)
+	at org.aspectj.weaver.Iterators$4.hasNext(Iterators.java:230)
+	at org.aspectj.weaver.ResolvedType.findPointcut(ResolvedType.java:767)
+	at org.aspectj.weaver.patterns.ReferencePointcut.resolveBindings(ReferencePointcut.java:148)
+	at org.aspectj.weaver.patterns.Pointcut.resolve(Pointcut.java:189)
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:331)
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:312)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:347)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 31 more
+2020-06-24 22:52:15 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 11136 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:52:15 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:52:15 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:52:17 U-   ERROR SpringApplication:837 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 23
+execution(com.mnzit..*(..))
+                       ^
+
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.mnzit.learner.spring.aop.demoaop.DemoAop.main(DemoAop.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 23
+execution(com.mnzit..*(..))
+                       ^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:212)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:177)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158)
+	... 14 more
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 23
+execution(com.mnzit..*(..))
+                       ^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:334)
+	at org.aspectj.weaver.reflect.InternalUseOnlyPointcutParser.resolvePointcutExpression(InternalUseOnlyPointcutParser.java:36)
+	at org.aspectj.weaver.reflect.Java15ReflectionBasedReferenceTypeDelegate.getDeclaredPointcuts(Java15ReflectionBasedReferenceTypeDelegate.java:309)
+	at org.aspectj.weaver.ReferenceType.getDeclaredPointcuts(ReferenceType.java:890)
+	at org.aspectj.weaver.ResolvedType$PointcutGetter.get(ResolvedType.java:263)
+	at org.aspectj.weaver.ResolvedType$PointcutGetter.get(ResolvedType.java:260)
+	at org.aspectj.weaver.Iterators$4$1.hasNext(Iterators.java:213)
+	at org.aspectj.weaver.Iterators$4.hasNext(Iterators.java:230)
+	at org.aspectj.weaver.ResolvedType.findPointcut(ResolvedType.java:767)
+	at org.aspectj.weaver.patterns.ReferencePointcut.resolveBindings(ReferencePointcut.java:148)
+	at org.aspectj.weaver.patterns.Pointcut.resolve(Pointcut.java:189)
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:331)
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:312)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:347)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 31 more
+2020-06-24 22:52:33 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 9620 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:52:33 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:52:33 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:52:34 U-   ERROR SpringApplication:837 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 22
+execution(com.mnzit..*)
+                      ^
+
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.mnzit.learner.spring.aop.demoaop.DemoAop.main(DemoAop.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 22
+execution(com.mnzit..*)
+                      ^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:212)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:177)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158)
+	... 14 more
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 22
+execution(com.mnzit..*)
+                      ^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:334)
+	at org.aspectj.weaver.reflect.InternalUseOnlyPointcutParser.resolvePointcutExpression(InternalUseOnlyPointcutParser.java:36)
+	at org.aspectj.weaver.reflect.Java15ReflectionBasedReferenceTypeDelegate.getDeclaredPointcuts(Java15ReflectionBasedReferenceTypeDelegate.java:309)
+	at org.aspectj.weaver.ReferenceType.getDeclaredPointcuts(ReferenceType.java:890)
+	at org.aspectj.weaver.ResolvedType$PointcutGetter.get(ResolvedType.java:263)
+	at org.aspectj.weaver.ResolvedType$PointcutGetter.get(ResolvedType.java:260)
+	at org.aspectj.weaver.Iterators$4$1.hasNext(Iterators.java:213)
+	at org.aspectj.weaver.Iterators$4.hasNext(Iterators.java:230)
+	at org.aspectj.weaver.ResolvedType.findPointcut(ResolvedType.java:767)
+	at org.aspectj.weaver.patterns.ReferencePointcut.resolveBindings(ReferencePointcut.java:148)
+	at org.aspectj.weaver.patterns.Pointcut.resolve(Pointcut.java:189)
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:331)
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:312)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:347)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 31 more
+2020-06-24 22:53:00 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 13916 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:53:00 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:53:00 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:53:03 U-   INFO  DemoAop:61 - Started DemoAop in 4.222 seconds (JVM running for 5.073)
+2020-06-24 22:53:03 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(DemoAop.run(..))
+2020-06-24 22:53:03 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOPImpl.testPublicInt())
+2020-06-24 22:53:03 U-   DEBUG TestAOPImpl:21 - testPublicInt
+2020-06-24 22:53:03 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOPImpl.testPublicIntInt(..))
+2020-06-24 22:53:03 U-   DEBUG TestAOPImpl:32 - testPublicIntInt
+2020-06-24 22:53:03 U-   DEBUG TestAOPImpl:38 - testPrivateVoid
+2020-06-24 22:53:03 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOPImpl.testPublicVoid())
+2020-06-24 22:53:03 U-   DEBUG TestAOPImpl:16 - testPublicVoid
+2020-06-24 22:53:03 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOPImpl.testPublicVoidInt(..))
+2020-06-24 22:53:03 U-   DEBUG TestAOPImpl:27 - testPublicVoidInt
+2020-06-24 22:53:44 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 12872 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:53:44 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:53:44 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:53:47 U-   INFO  DemoAop:61 - Started DemoAop in 4.108 seconds (JVM running for 4.948)
+2020-06-24 22:53:47 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(void com.mnzit.learner.spring.aop.demoaop.DemoAop.run(String[]))
+2020-06-24 22:53:48 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(int com.mnzit.learner.spring.aop.demoaop.test.TestAOP.testPublicInt())
+2020-06-24 22:53:48 U-   DEBUG TestAOPImpl:21 - testPublicInt
+2020-06-24 22:53:48 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(int com.mnzit.learner.spring.aop.demoaop.test.TestAOP.testPublicIntInt(int))
+2020-06-24 22:53:48 U-   DEBUG TestAOPImpl:32 - testPublicIntInt
+2020-06-24 22:53:48 U-   DEBUG TestAOPImpl:38 - testPrivateVoid
+2020-06-24 22:53:48 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(void com.mnzit.learner.spring.aop.demoaop.test.TestAOP.testPublicVoid())
+2020-06-24 22:53:48 U-   DEBUG TestAOPImpl:16 - testPublicVoid
+2020-06-24 22:53:48 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(void com.mnzit.learner.spring.aop.demoaop.test.TestAOP.testPublicVoidInt(int))
+2020-06-24 22:53:48 U-   DEBUG TestAOPImpl:27 - testPublicVoidInt
+2020-06-24 22:54:47 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 12316 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:54:47 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:54:47 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:54:51 U-   INFO  DemoAop:61 - Started DemoAop in 4.509 seconds (JVM running for 5.355)
+2020-06-24 22:54:51 U-   DEBUG TestAOPImpl:21 - testPublicInt
+2020-06-24 22:54:51 U-   DEBUG TestAOPImpl:32 - testPublicIntInt
+2020-06-24 22:54:51 U-   DEBUG TestAOPImpl:38 - testPrivateVoid
+2020-06-24 22:54:51 U-   DEBUG TestAOPImpl:16 - testPublicVoid
+2020-06-24 22:54:51 U-   DEBUG TestAOPImpl:27 - testPublicVoidInt
+2020-06-24 22:55:22 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 1836 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:55:22 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:55:22 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:55:26 U-   INFO  DemoAop:61 - Started DemoAop in 4.449 seconds (JVM running for 5.318)
+2020-06-24 22:55:26 U-   DEBUG TestAOPImpl:21 - testPublicInt
+2020-06-24 22:55:26 U-   DEBUG TestAOPImpl:32 - testPublicIntInt
+2020-06-24 22:55:26 U-   DEBUG TestAOPImpl:38 - testPrivateVoid
+2020-06-24 22:55:26 U-   DEBUG TestAOPImpl:16 - testPublicVoid
+2020-06-24 22:55:26 U-   DEBUG TestAOPImpl:27 - testPublicVoidInt
+2020-06-24 22:57:00 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 848 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:57:00 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:57:00 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:57:04 U-   INFO  DemoAop:61 - Started DemoAop in 4.488 seconds (JVM running for 5.336)
+2020-06-24 22:57:04 U-   DEBUG TestAOPImpl:21 - testPublicInt
+2020-06-24 22:57:04 U-   DEBUG TestAOPImpl:32 - testPublicIntInt
+2020-06-24 22:57:04 U-   DEBUG TestAOPImpl:38 - testPrivateVoid
+2020-06-24 22:57:04 U-   DEBUG TestAOPImpl:16 - testPublicVoid
+2020-06-24 22:57:04 U-   DEBUG TestAOPImpl:27 - testPublicVoidInt
+2020-06-24 22:57:27 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 4240 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:57:27 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:57:27 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:57:29 U-   ERROR SpringApplication:837 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 31
+execution(public com.mnzit..* (..))
+                               ^
+
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.mnzit.learner.spring.aop.demoaop.DemoAop.main(DemoAop.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 31
+execution(public com.mnzit..* (..))
+                               ^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:212)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:177)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158)
+	... 14 more
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting 'name pattern' at character position 31
+execution(public com.mnzit..* (..))
+                               ^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:334)
+	at org.aspectj.weaver.reflect.InternalUseOnlyPointcutParser.resolvePointcutExpression(InternalUseOnlyPointcutParser.java:36)
+	at org.aspectj.weaver.reflect.Java15ReflectionBasedReferenceTypeDelegate.getDeclaredPointcuts(Java15ReflectionBasedReferenceTypeDelegate.java:309)
+	at org.aspectj.weaver.ReferenceType.getDeclaredPointcuts(ReferenceType.java:890)
+	at org.aspectj.weaver.ResolvedType$PointcutGetter.get(ResolvedType.java:263)
+	at org.aspectj.weaver.ResolvedType$PointcutGetter.get(ResolvedType.java:260)
+	at org.aspectj.weaver.Iterators$4$1.hasNext(Iterators.java:213)
+	at org.aspectj.weaver.Iterators$4.hasNext(Iterators.java:230)
+	at org.aspectj.weaver.ResolvedType.findPointcut(ResolvedType.java:767)
+	at org.aspectj.weaver.patterns.ReferencePointcut.resolveBindings(ReferencePointcut.java:148)
+	at org.aspectj.weaver.patterns.Pointcut.resolve(Pointcut.java:189)
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:331)
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:312)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:347)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 31 more
+2020-06-24 22:58:45 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 1348 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:58:45 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:58:45 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:58:49 U-   INFO  DemoAop:61 - Started DemoAop in 4.652 seconds (JVM running for 5.547)
+2020-06-24 22:58:49 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(DemoAop.run(..))
+2020-06-24 22:58:49 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOP.testPublicInt())
+2020-06-24 22:58:49 U-   DEBUG TestAOP:19 - testPublicInt
+2020-06-24 22:58:49 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOP.testPublicIntInt(..))
+2020-06-24 22:58:49 U-   DEBUG TestAOP:28 - testPublicIntInt
+2020-06-24 22:58:49 U-   DEBUG TestAOP:34 - testPrivateVoid
+2020-06-24 22:58:49 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOP.testPublicVoid())
+2020-06-24 22:58:49 U-   DEBUG TestAOP:15 - testPublicVoid
+2020-06-24 22:58:49 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOP.testPublicVoidInt(..))
+2020-06-24 22:58:49 U-   DEBUG TestAOP:24 - testPublicVoidInt
+2020-06-24 22:59:25 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 4484 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:59:25 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:59:25 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:59:29 U-   INFO  DemoAop:61 - Started DemoAop in 4.92 seconds (JVM running for 5.812)
+2020-06-24 22:59:29 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(DemoAop.run(..))
+2020-06-24 22:59:29 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOP.testPublicInt())
+2020-06-24 22:59:29 U-   DEBUG TestAOP:19 - testPublicInt
+2020-06-24 22:59:29 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOP.testPublicIntInt(..))
+2020-06-24 22:59:29 U-   DEBUG TestAOP:28 - testPublicIntInt
+2020-06-24 22:59:29 U-   DEBUG TestAOP:34 - testPrivateVoid
+2020-06-24 22:59:29 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOP.testPublicVoid())
+2020-06-24 22:59:29 U-   DEBUG TestAOP:15 - testPublicVoid
+2020-06-24 22:59:29 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOP.testPublicVoidInt(..))
+2020-06-24 22:59:29 U-   DEBUG TestAOP:24 - testPublicVoidInt
+2020-06-24 22:59:47 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 12992 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 22:59:47 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 22:59:47 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 22:59:51 U-   INFO  DemoAop:61 - Started DemoAop in 4.908 seconds (JVM running for 5.744)
+2020-06-24 22:59:51 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(DemoAop.run(..))
+2020-06-24 22:59:51 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOP.testPublicInt())
+2020-06-24 22:59:51 U-   DEBUG TestAOP:19 - testPublicInt
+2020-06-24 22:59:51 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOP.testPublicIntInt(..))
+2020-06-24 22:59:51 U-   DEBUG TestAOP:28 - testPublicIntInt
+2020-06-24 22:59:51 U-   DEBUG TestAOP:34 - testPrivateVoid
+2020-06-24 22:59:51 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOP.testPublicVoid())
+2020-06-24 22:59:51 U-   DEBUG TestAOP:15 - testPublicVoid
+2020-06-24 22:59:51 U-   DEBUG LoggingAspects:24 - the execution of any public method: execution(TestAOP.testPublicVoidInt(..))
+2020-06-24 22:59:51 U-   DEBUG TestAOP:24 - testPublicVoidInt
+2020-06-24 23:00:09 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 18724 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 23:00:09 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 23:00:09 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 23:00:12 U-   INFO  DemoAop:61 - Started DemoAop in 4.48 seconds (JVM running for 5.35)
+2020-06-24 23:00:12 U-   DEBUG TestAOP:19 - testPublicInt
+2020-06-24 23:00:12 U-   DEBUG TestAOP:28 - testPublicIntInt
+2020-06-24 23:00:12 U-   DEBUG TestAOP:34 - testPrivateVoid
+2020-06-24 23:00:12 U-   DEBUG TestAOP:15 - testPublicVoid
+2020-06-24 23:00:12 U-   DEBUG TestAOP:24 - testPublicVoidInt
+2020-06-24 23:00:31 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 9368 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 23:00:31 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 23:00:31 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 23:00:35 U-   INFO  DemoAop:61 - Started DemoAop in 4.483 seconds (JVM running for 5.335)
+2020-06-24 23:00:35 U-   DEBUG TestAOP:19 - testPublicInt
+2020-06-24 23:00:35 U-   DEBUG TestAOP:28 - testPublicIntInt
+2020-06-24 23:00:35 U-   DEBUG TestAOP:34 - testPrivateVoid
+2020-06-24 23:00:35 U-   DEBUG TestAOP:15 - testPublicVoid
+2020-06-24 23:00:35 U-   DEBUG TestAOP:24 - testPublicVoidInt
+2020-06-24 23:12:11 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 9276 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 23:12:11 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 23:12:11 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 23:12:13 U-   ERROR SpringApplication:837 - Application run failed
+org.springframework.context.ApplicationContextException: Unable to start web server; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 0
+within(com.mnzit.learner.spring.aop.demoaop..*
+^
+
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:161)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:545)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:758)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:750)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1237)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at com.mnzit.learner.spring.aop.demoaop.DemoAop.main(DemoAop.java:22)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.springframework.boot.autoconfigure.web.servlet.ServletWebServerFactoryConfiguration$EmbeddedTomcat': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 0
+within(com.mnzit.learner.spring.aop.demoaop..*
+^
+
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:603)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1338)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:557)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:226)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:207)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.getWebServerFactory(ServletWebServerApplicationContext.java:212)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.createWebServer(ServletWebServerApplicationContext.java:177)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.onRefresh(ServletWebServerApplicationContext.java:158)
+	... 14 more
+Caused by: java.lang.IllegalArgumentException: Pointcut is not well-formed: expecting ')' at character position 0
+within(com.mnzit.learner.spring.aop.demoaop..*
+^
+
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:334)
+	at org.aspectj.weaver.reflect.InternalUseOnlyPointcutParser.resolvePointcutExpression(InternalUseOnlyPointcutParser.java:36)
+	at org.aspectj.weaver.reflect.Java15ReflectionBasedReferenceTypeDelegate.getDeclaredPointcuts(Java15ReflectionBasedReferenceTypeDelegate.java:309)
+	at org.aspectj.weaver.ReferenceType.getDeclaredPointcuts(ReferenceType.java:890)
+	at org.aspectj.weaver.ResolvedType$PointcutGetter.get(ResolvedType.java:263)
+	at org.aspectj.weaver.ResolvedType$PointcutGetter.get(ResolvedType.java:260)
+	at org.aspectj.weaver.Iterators$4$1.hasNext(Iterators.java:213)
+	at org.aspectj.weaver.Iterators$4.hasNext(Iterators.java:230)
+	at org.aspectj.weaver.ResolvedType.findPointcut(ResolvedType.java:767)
+	at org.aspectj.weaver.patterns.ReferencePointcut.resolveBindings(ReferencePointcut.java:148)
+	at org.aspectj.weaver.patterns.Pointcut.resolve(Pointcut.java:189)
+	at org.aspectj.weaver.tools.PointcutParser.resolvePointcutExpression(PointcutParser.java:331)
+	at org.aspectj.weaver.tools.PointcutParser.parsePointcutExpression(PointcutParser.java:312)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.buildPointcutExpression(AspectJExpressionPointcut.java:227)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.obtainPointcutExpression(AspectJExpressionPointcut.java:198)
+	at org.springframework.aop.aspectj.AspectJExpressionPointcut.getClassFilter(AspectJExpressionPointcut.java:177)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:226)
+	at org.springframework.aop.support.AopUtils.canApply(AopUtils.java:289)
+	at org.springframework.aop.support.AopUtils.findAdvisorsThatCanApply(AopUtils.java:321)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findAdvisorsThatCanApply(AbstractAdvisorAutoProxyCreator.java:128)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findEligibleAdvisors(AbstractAdvisorAutoProxyCreator.java:97)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.getAdvicesAndAdvisorsForBean(AbstractAdvisorAutoProxyCreator.java:78)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.wrapIfNecessary(AbstractAutoProxyCreator.java:347)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessAfterInitialization(AbstractAutoProxyCreator.java:299)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsAfterInitialization(AbstractAutowireCapableBeanFactory.java:431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:595)
+	... 31 more
+2020-06-24 23:12:35 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 6028 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 23:12:35 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 23:12:35 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 23:12:39 U-   INFO  DemoAop:61 - Started DemoAop in 4.524 seconds (JVM running for 5.403)
+2020-06-24 23:12:39 U-   DEBUG LoggingAspects:46 - the execution of any public method: execution(DemoAop.run(..))
+2020-06-24 23:12:39 U-   DEBUG LoggingAspects:46 - the execution of any public method: execution(TestAOP.testPublicInt())
+2020-06-24 23:12:39 U-   DEBUG TestAOP:19 - testPublicInt
+2020-06-24 23:12:39 U-   DEBUG LoggingAspects:46 - the execution of any public method: execution(TestAOP.testPublicIntInt(..))
+2020-06-24 23:12:39 U-   DEBUG TestAOP:28 - testPublicIntInt
+2020-06-24 23:12:39 U-   DEBUG TestAOP:34 - testPrivateVoid
+2020-06-24 23:12:39 U-   DEBUG LoggingAspects:46 - the execution of any public method: execution(TestAOP.testPublicVoid())
+2020-06-24 23:12:39 U-   DEBUG TestAOP:15 - testPublicVoid
+2020-06-24 23:12:39 U-   DEBUG LoggingAspects:46 - the execution of any public method: execution(TestAOP.testPublicVoidInt(..))
+2020-06-24 23:12:39 U-   DEBUG TestAOP:24 - testPublicVoidInt
+2020-06-24 23:13:04 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 12328 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 23:13:04 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 23:13:04 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 23:13:08 U-   INFO  DemoAop:61 - Started DemoAop in 4.827 seconds (JVM running for 5.718)
+2020-06-24 23:13:08 U-   DEBUG LoggingAspects:46 - the execution of any public method: execution(DemoAop.run(..))
+2020-06-24 23:13:08 U-   DEBUG LoggingAspects:46 - the execution of any public method: execution(TestAOP.testPublicInt())
+2020-06-24 23:13:08 U-   DEBUG TestAOP:19 - testPublicInt
+2020-06-24 23:13:08 U-   DEBUG LoggingAspects:46 - the execution of any public method: execution(TestAOP.testPublicIntInt(..))
+2020-06-24 23:13:08 U-   DEBUG TestAOP:28 - testPublicIntInt
+2020-06-24 23:13:08 U-   DEBUG LoggingAspects:46 - the execution of any public method: execution(TestAOP.testPublicVoid())
+2020-06-24 23:13:08 U-   DEBUG TestAOP:15 - testPublicVoid
+2020-06-24 23:13:08 U-   DEBUG LoggingAspects:46 - the execution of any public method: execution(TestAOP.testPublicVoidInt(..))
+2020-06-24 23:13:08 U-   DEBUG TestAOP:24 - testPublicVoidInt
+2020-06-24 23:22:05 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 10400 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 23:22:05 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 23:22:05 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 23:22:10 U-   INFO  DemoAop:61 - Started DemoAop in 4.917 seconds (JVM running for 5.784)
+2020-06-24 23:22:10 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(DemoAop.run(..))
+2020-06-24 23:22:10 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicInt())
+2020-06-24 23:22:10 U-   DEBUG TestAOP:19 - testPublicInt
+2020-06-24 23:22:10 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicIntInt(..))
+2020-06-24 23:22:10 U-   DEBUG TestAOP:28 - testPublicIntInt
+2020-06-24 23:22:10 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicVoid())
+2020-06-24 23:22:10 U-   DEBUG TestAOP:15 - testPublicVoid
+2020-06-24 23:22:10 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicVoidInt(..))
+2020-06-24 23:22:10 U-   DEBUG TestAOP:24 - testPublicVoidInt
+2020-06-24 23:22:10 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(SubTestAOP.subTestPublicVoid())
+2020-06-24 23:22:10 U-   DEBUG SubTestAOP:15 - subTestPublicVoid
+2020-06-24 23:23:00 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 14412 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 23:23:00 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 23:23:00 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 23:23:05 U-   INFO  DemoAop:61 - Started DemoAop in 5.072 seconds (JVM running for 5.955)
+2020-06-24 23:23:05 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicInt())
+2020-06-24 23:23:05 U-   DEBUG TestAOP:19 - testPublicInt
+2020-06-24 23:23:05 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicIntInt(..))
+2020-06-24 23:23:05 U-   DEBUG TestAOP:28 - testPublicIntInt
+2020-06-24 23:23:05 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicVoid())
+2020-06-24 23:23:05 U-   DEBUG TestAOP:15 - testPublicVoid
+2020-06-24 23:23:05 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicVoidInt(..))
+2020-06-24 23:23:05 U-   DEBUG TestAOP:24 - testPublicVoidInt
+2020-06-24 23:23:05 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(SubTestAOP.subTestPublicVoid())
+2020-06-24 23:23:05 U-   DEBUG SubTestAOP:15 - subTestPublicVoid
+2020-06-24 23:23:46 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 4860 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 23:23:46 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 23:23:46 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 23:23:50 U-   INFO  DemoAop:61 - Started DemoAop in 4.366 seconds (JVM running for 5.233)
+2020-06-24 23:23:50 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicInt())
+2020-06-24 23:23:50 U-   DEBUG TestAOP:19 - testPublicInt
+2020-06-24 23:23:50 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicIntInt(..))
+2020-06-24 23:23:50 U-   DEBUG TestAOP:28 - testPublicIntInt
+2020-06-24 23:23:50 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicVoid())
+2020-06-24 23:23:50 U-   DEBUG TestAOP:15 - testPublicVoid
+2020-06-24 23:23:50 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicVoidInt(..))
+2020-06-24 23:23:50 U-   DEBUG TestAOP:24 - testPublicVoidInt
+2020-06-24 23:23:50 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(SubTestAOP.subTestPublicVoid())
+2020-06-24 23:23:50 U-   DEBUG SubTestAOP:15 - subTestPublicVoid
+2020-06-24 23:24:10 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 10388 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 23:24:10 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 23:24:10 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 23:24:13 U-   INFO  DemoAop:61 - Started DemoAop in 4.197 seconds (JVM running for 5.062)
+2020-06-24 23:24:13 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicInt())
+2020-06-24 23:24:13 U-   DEBUG TestAOP:19 - testPublicInt
+2020-06-24 23:24:13 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicIntInt(..))
+2020-06-24 23:24:13 U-   DEBUG TestAOP:28 - testPublicIntInt
+2020-06-24 23:24:13 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicVoid())
+2020-06-24 23:24:13 U-   DEBUG TestAOP:15 - testPublicVoid
+2020-06-24 23:24:13 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicVoidInt(..))
+2020-06-24 23:24:13 U-   DEBUG TestAOP:24 - testPublicVoidInt
+2020-06-24 23:24:13 U-   DEBUG SubTestAOP:15 - subTestPublicVoid
+2020-06-24 23:24:27 U-   INFO  DemoAop:55 - Starting DemoAop on DESKTOP-4FOUQQ6 with PID 17572 (C:\Users\LENOVO\Downloads\demo-aop\demo-aop\target\classes started by LENOVO in C:\Users\LENOVO\Downloads\demo-aop\demo-aop)
+2020-06-24 23:24:27 U-   DEBUG DemoAop:56 - Running with Spring Boot v2.3.1.RELEASE, Spring v5.2.7.RELEASE
+2020-06-24 23:24:27 U-   INFO  DemoAop:651 - No active profile set, falling back to default profiles: default
+2020-06-24 23:24:32 U-   INFO  DemoAop:61 - Started DemoAop in 4.945 seconds (JVM running for 5.847)
+2020-06-24 23:24:32 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicInt())
+2020-06-24 23:24:32 U-   DEBUG TestAOP:19 - testPublicInt
+2020-06-24 23:24:32 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicIntInt(..))
+2020-06-24 23:24:32 U-   DEBUG TestAOP:28 - testPublicIntInt
+2020-06-24 23:24:32 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicVoid())
+2020-06-24 23:24:32 U-   DEBUG TestAOP:15 - testPublicVoid
+2020-06-24 23:24:32 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(TestAOP.testPublicVoidInt(..))
+2020-06-24 23:24:32 U-   DEBUG TestAOP:24 - testPublicVoidInt
+2020-06-24 23:24:32 U-   DEBUG LoggingAspects:62 - the execution of any public method: execution(SubTestAOP.subTestPublicVoid())
+2020-06-24 23:24:32 U-   DEBUG SubTestAOP:15 - subTestPublicVoid
